@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-
 <html>
-  <head> </head>
+  <head>
+    <title>Survey</title>
+  </head>
   <body>
     <h1>KWEB Survey Page</h1>
     <img referrerpolicy="no-referrer" src="https://i.imgur.com/hSSFVSw.png" />
@@ -44,5 +45,43 @@
     <div><textarea rows="15" cols="100"></textarea></div>
 
     <button>Submit your answers</button>
+
+    <hr />
+
+    <div id="container">
+      <div id="survey-name">
+        <h3>Input username:</h3>
+        <input type="text" name="username" />
+        <h3>Input password:</h3>
+        <input type="password" name="password" />
+      </div>
+
+      <div id="survey-gender">
+        <h3>Gender:</h3>
+        <label><input type="radio" name="gender" value="male" />Male</label>
+        <label><input type="radio" name="gender" value="female" />Female</label>
+        <label><input type="radio" name="gender" value="other" />Other</label>
+      </div>
+
+      <div id="survery-major">
+        <h3>Your Major:</h3>
+        <select name="major">
+          <option value="cs">Computer Science</option>
+          <option value="phy">Physics</option>
+          <option value="chm">Chemistry</option>
+          <option value="math">Mathematics</option>
+        </select>
+      </div>
+
+      <div id="survey-introduce">
+        <h3>Introduce yourself:</h3>
+        <textarea
+          cols="40"
+          rows="5"
+          placeholder="Introduce yourself"
+          name="introduction"
+        ></textarea>
+      </div>
+    </div>
   </body>
 </html>
