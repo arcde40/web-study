@@ -1,0 +1,20 @@
+#scroll-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+  background-color: blue;
+  border-radius: 18px;
+  border: 3px solid blue;
+  font-size: 18px;
+}
+
+#scroll-up {
+  padding: 1px 7px 4px;
+  color: white;
+}
+#scroll-down {
+  border-top: 2px solid white;
+  padding: 1px 7px 5px;
+  color: white;
+}
