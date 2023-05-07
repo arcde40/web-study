@@ -1,0 +1,51 @@
+.header {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: pink;
+}
+
+.navbar {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: yellow;
+  display: inline-block;
+  margin: 0px;
+}
+
+.content {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: skyblue;
+  display: inline-block;
+  margin: 0px;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: lime;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar {
+    height: 500px;
+    width: 15%;
+    margin-bottom: 10px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0px;
+  }
+
+  .content {
+    height: 500px;
+    width: 84%;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    display: inline-block;
+    margin: 0px;
+  }
+}
